@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Single Page CV</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px auto;
+            max-width: 900px;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.8;
+        }
+        .cv-section {
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        p {
+            font-size: 1.3em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        p textarea {
+            width: 100%;
+            font-size: 1em;
+            color: #555;
+            border: none;
+            background: none;
+            font-family: inherit;
+            white-space: pre-wrap;
+            height: auto;
+            min-height: 80px;
+            resize: none;
+            overflow: hidden;
+        }
+        p textarea:focus {
+            outline: none;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 1.6em;
+            }
+            p {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="cv">
+        <div class="cv-section" id="personal-info">
+            <h1>Name</h1>
+            <p><textarea id="name">John Doe</textarea></p>
+            <h1>Email</h1>
+            <p><textarea id="email">johndoe@example.com</textarea></p>
+            <h1>Contact Info</h1>
+            <p><textarea id="contact">+123-456-7890</textarea></p>
+        </div>
+
+        <div class="cv-section" id="objective">
+            <h1>Objective</h1>
+            <p><textarea id="objective-text">To leverage my skills in software development and contribute to building impactful applications while continuously enhancing my professional expertise.</textarea></p>
+        </div>
+
+        <div class="cv-section" id="experiences">
+            <h1>Experiences</h1>
+            <p><textarea id="experiences-text">Software Developer at XYZ Corp (2018-2023).
+Worked on multiple projects including web applications and APIs.
+Improved system performance by 20%.
+Mentored junior developers on code quality and best practices.</textarea></p>
+        </div>
+
+        <div class="cv-section" id="projects">
+            <h1>Projects</h1>
+            <p><textarea id="projects-text">Developed a portfolio website showcasing projects.
+Built an e-commerce application with secure payment integration.
+Collaborated with a team to create a task management tool.
+Optimized website loading speeds by 30%.</textarea></p>
+        </div>
+
+        <div class="cv-section" id="education">
+            <h1>Education</h1>
+            <p><textarea id="education-text">B.Sc. in Computer Science, ABC University (2014-2018).
+Specialized in software engineering and data structures.
+Completed a thesis on AI and Machine Learning.</textarea></p>
+        </div>
+
+        <div class="cv-section" id="skills">
+            <h1>Skills</h1>
+            <p><textarea id="skills-text">Proficient in JavaScript, Python, React, Node.js, and SQL.
+Experienced with agile methodologies and version control systems.
+Strong problem-solving and debugging skills.</textarea></p>
+        </div>
+
+        <div class="cv-section" id="languages">
+            <h1>Languages</h1>
+            <p><textarea id="languages-text">Fluent in English, Spanish, and French.
+Intermediate proficiency in German.
+Basic knowledge of Italian.</textarea></p>
+        </div>
+    </div>
+</body>
+</html>
