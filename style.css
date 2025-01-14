@@ -113,7 +113,67 @@ body {
 }
 
 
+.topRow {
 
+  width: 100%;
+  height: 80px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 60px;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.topRow p {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+
+.topRow button {
+  border-radius: 3px;
+  padding: 4px 7px;
+  font-size: 0.92rem;
+  border: none;
+  cursor: pointer;
+  margin-inline: 10px;
+  transition: .1s ease-in-out;
+}
+
+
+.topRow button:hover {
+  font-size: 0.94rem;
+}
+.editAndSave {
+  width: 250px;
+}
+
+@media (max-width: 375px) {
+
+  .topRow {
+    padding-inline: 10px;
+  }
+  .topRow p {
+    display: none;
+
+  }
+
+  .topRow button {
+
+    padding: 2px 3px;
+    font-size: .7rem;
+    margin-inline: 4px;
+
+  }
+
+  .editAndSave {
+    width: 160px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
     .template-options {
@@ -122,6 +182,23 @@ body {
     .template-box {
         margin: 10px;
     }
+
+    
+  .topRow {
+    padding-inline: 20px;
+  }
+
+  .topRow button {
+
+    padding: 2px 3px;
+    font-size: .8rem;
+    margin-inline: 4px;
+
+  }
+
+  .editAndSave {
+    width: 160px;
+  }
 }
 
 
@@ -130,6 +207,7 @@ body {
 
 .cvBox {
   margin: 50px auto;
+  margin-top: 160px;
   width: 80%;
   background: white;
   padding: 30px;
@@ -214,11 +292,11 @@ p textarea:focus {
 }
 
 #cvBox5 h1,h2,h3{
-  color: #3d0642;
+  color: #57025f;
 }
 
 #cvBox5 p,#cvBox5 p textarea{
-  color: #1d0119;
+  color: #410037;
 }
 
 
