@@ -152,70 +152,56 @@ body {
   width: 250px;
 }
 
-@media (max-width: 375px) {
-
-  .topRow {
-    padding-inline: 10px;
-  }
-  .topRow p {
-    display: none;
-
-  }
-
-  .topRow button {
-
-    padding: 2px 3px;
-    font-size: .7rem;
-    margin-inline: 4px;
-
-  }
-
-  .editAndSave {
-    width: 160px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-    .template-options {
-        flex-direction: column;
-    }
-    .template-box {
-        margin: 10px;
-    }
-
-    
-  .topRow {
-    padding-inline: 20px;
-  }
-
-  .topRow button {
-
-    padding: 2px 3px;
-    font-size: .8rem;
-    margin-inline: 4px;
-
-  }
-
-  .editAndSave {
-    width: 160px;
-  }
-}
 
 
 
 
 
+
+/* ---------- cv box styling  ----------------- */
 .cvBox {
   margin: 50px auto;
   margin-top: 160px;
   width: 80%;
   background: white;
   padding: 30px;
+  min-width: 768px;
 }
 
 .cv-section {
   margin-bottom: 30px;
 }
+
+
+#personal-info{
+
+  margin-bottom: 50px;
+  height: auto;
+
+}
+#personal-info>p {
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 5px;
+}
+
+#personal-info>p>textarea {
+  text-align: center;
+  height: 30px;
+  /* padding: 5px; */
+  margin-bottom: 0px;
+}
+
+#personal-info .personName {
+  font-size: 2.8rem;
+  font-weight: bold;
+  height: 70px;
+  /* padding-bottom: 9px;
+
+  padding: 5px; */
+  
+}
+
 .cvBox h1,h2,h3 {
   font-size: 1.8em;
   color: #333;
@@ -240,7 +226,7 @@ p textarea {
   border: none;
   background: none;
   font-family: inherit;
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; */
   height: auto;
   /* min-height: 80px; */
   /* resize: none; */
@@ -300,6 +286,114 @@ p textarea:focus {
 }
 
 
+
+#cvBox6{
+  border-bottom: 40px solid rgb(255, 123, 0);
+}
+
+#cvBox6 h1,h2,h3{
+  color:  rgb(255, 123, 0);
+}
+
+#cvBox6 p,#cvBox6 p textarea{
+  color:black;
+}
+
+
+#cvBox7{
+  border-bottom: 40px solid rgb(0, 142, 224);
+}
+
+#cvBox7 h1,h2,h3{
+  color:  rgb(0, 142, 224);
+}
+
+#cvBox7 p,#cvBox7 p textarea{
+  color:black;
+}
+
+
+#cvBox8{
+  border-bottom: 40px solid rgb(141, 21, 0);
+}
+
+#cvBox8 h1,h2,h3{
+  color: rgb(141, 21, 0);
+}
+
+#cvBox8 p,#cvBox8 p textarea{
+  color:black;
+}
+
+
+#cvBox9{
+  border-bottom: 40px solid rgb(0, 51, 3);
+}
+
+#cvBox9 h1,h2,h3{
+  color: rgb(0, 51, 3);
+}
+
+#cvBox9 p,#cvBox9 p textarea{
+  color:black;
+}
+
+
+#cvBox0{
+  border-bottom: 40px solid rgb(0, 194, 201);
+}
+
+#cvBox0 h1,h2,h3{
+  color: rgb(0, 194, 201);
+}
+
+#cvBox0 p,#cvBox0 p textarea{
+  color:black;
+}
+
+
+
+
+.none {
+    display: none;
+}
+
+
+
+@media (max-width: 375px) {
+
+  .cvBox p,textarea{
+    font-size: .9rem;
+  }
+
+  .cvBox h1,h2{
+    font-size: 1.4rem;
+  }
+
+  .topRow {
+    padding-inline: 10px;
+  }
+  .topRow p {
+    display: none;
+
+  }
+
+  .topRow button {
+
+    padding: 2px 3px;
+    font-size: .7rem;
+    margin-inline: 4px;
+
+  }
+
+  .editAndSave {
+    width: 160px;
+  }
+}
+
+
+
+
 @media (max-width: 600px) {
   body {
       padding: 10px;
@@ -316,7 +410,28 @@ p textarea:focus {
 
 
 
+@media only screen and (max-width: 768px) {
+    .template-options {
+        flex-direction: column;
+    }
+    .template-box {
+        margin: 10px;
+    }
 
-.none {
-    display: none;
+    
+  .topRow {
+    padding-inline: 20px;
+  }
+
+  .topRow button {
+
+    padding: 2px 3px;
+    font-size: .8rem;
+    margin-inline: 4px;
+
+  }
+
+  .editAndSave {
+    width: 160px;
+  }
 }

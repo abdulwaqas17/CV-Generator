@@ -56,7 +56,7 @@ cvBtns.forEach((b)=>{
         document.getElementById(`cvBox${desireBtnIDNum}`).classList.remove("none");
     
         // console.log("line no 26");
-        alert('Now you can customize your CV by click on Edit Button, Make sure before download CV your changes were save!')
+        // alert('Now you can customize your CV by click on Edit Button, Make sure before download CV your changes were save!')
   }
   
   
